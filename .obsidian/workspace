@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "e172a754041b9641",
+    "type": "split",
+    "children": [
+      {
+        "id": "30146593ee8dbb97",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Economics/Wider economic environment.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d83d1f968a4604a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2731e9fe5692e7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3143a87a566d689",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "992a661f3874999c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "backbone",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 204
+  },
+  "right": {
+    "id": "1f503a3ce2fd7a72",
+    "type": "split",
+    "children": [
+      {
+        "id": "87632fecbb90e26d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8cbb66b690fbc3a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Economics/Wider economic environment.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "30146593ee8dbb97",
+  "lastOpenFiles": [
+    "Economics/Wider economic environment.md",
+    "Economics/The economic cycle.md",
+    "Economics/Taxation.md",
+    "Economics/Regulation.md",
+    "Economics/Public good.md",
+    "Economics/Positive externalities.md",
+    "Economics/Negative externalities.md",
+    "Economics/Market failure.md",
+    "Economics/Legislation.md",
+    "Economics/Indirect tax.md"
+  ]
+}
