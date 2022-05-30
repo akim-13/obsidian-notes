@@ -7,8 +7,8 @@ and firms within an economy.
 ![](circular_flow.png) 
 
 ## Injections and Leakages
-**Injections** — additions to the circular flow from sources other than households,
-the main injections are **I**, **G** and **X**.
+**Injections** — additions to the circular flow from sources other than households.
+The main injections are **I**, **G** and **X**.
 
 **Leakages (or withdrawals)** — the ways which income escapes from the circular
 flow. The main leakages are **S**, **T** and **M**.
