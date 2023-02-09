@@ -1,5 +1,7 @@
 {
   "baseFontSize": 16,
   "translucency": false,
-  "cssTheme": "Obsidian gruvbox"
+  "cssTheme": "Obsidian gruvbox",
+  "accentColor": "",
+  "textFontFamily": "Times New Roman"
 }

@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Economics/Aggregate demand.md",
-            "mode": "preview",
+            "file": "Vectors.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Economics/Aggregate demand.md",
+                "file": "Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,8 +90,8 @@
   },
   "active": "c6b9e03cf0992784",
   "lastOpenFiles": [
-    "Economics/Aggregate demand.md",
     "Economics/Aggregate supply.md",
+    "Economics/Aggregate demand.md",
     "Economics/Demerit good.md",
     "Economics/Circular flow of income.md",
     "Attachments/circular_flow_leakages_injections.png",

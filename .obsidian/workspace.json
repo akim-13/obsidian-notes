@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "e172a754041b9641",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc7b3c7e12791b64",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ccc901719c8b07db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Non-homogenous SDEs.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "775def6565047948",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "2c5e74a7363ba939",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Fetch–Decode–Execute cycle.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d83d1f968a4604a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2731e9fe5692e7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3143a87a566d689",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "992a661f3874999c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "backbone",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 243.50260543823242,
+    "collapsed": true
+  },
+  "right": {
+    "id": "1f503a3ce2fd7a72",
+    "type": "split",
+    "children": [
+      {
+        "id": "87632fecbb90e26d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8cbb66b690fbc3a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "templates:Insert template": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "775def6565047948",
+  "lastOpenFiles": [
+    "Computer Science/System clock.md",
+    "Computer Science/TCP-IP protocol stack.md",
+    "Computer Science/Transport layer.md",
+    "Computer Science/URL.md",
+    "Computer Science/WAN.md",
+    "Computer Science/Wi-Fi.md",
+    "Computer Science/Pipelining.md",
+    "Computer Science/PC.md",
+    "Computer Science/Packet trailer.md",
+    "Computer Science/Packet switching.md"
+  ]
+}
