@@ -1,6 +1,6 @@
 {
   "legacyEditor": false,
-  "livePreview": true,
+  "livePreview": false,
   "spellcheck": true,
   "spellcheckLanguages": [
     "en-GB"
@@ -8,5 +8,8 @@
   "vimMode": true,
   "promptDelete": false,
   "showLineNumber": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "preview",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "Attachments"
 }

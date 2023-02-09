@@ -3,6 +3,9 @@
 the form $\frac{0}{0}$ or $\frac{\infty}{\infty}$, then:
 $$ \boxed{\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}} $$ 
 
+* If $\lim_{x \to a} f(x)$ exists, then:
+$$ \boxed{\lim_{x \to a} e^{f(x)} = e^{\lim_{x \to a} f(x)}} $$ 
+
 ---
 
 **Q:** Find $\lim_{x \to 0} x\ln{x}$
@@ -50,7 +53,7 @@ $$
     e^{\lim_{y \to 0^{+}}\frac{\ln{(\cos{2y})}}{y^{2}}} =
     e^{\lim_{y \to 0^{+}} \frac{-\frac{\sin{2y}}{\cos{2y}}}{2y}} =
     e^{\lim_{y \to 0^{+}} \frac{-\tan{2y}}{2y}} =
-    e^{\lim_{y \to 0^{+}} \frac{-2(1 + \tan^{2}{2y})}{1}} =
+    e^{\lim_{y \to 0^{+}} \frac{-2(1 + \cancelto{0}{\tan^{2}{2y}})}{1}} =
     e^{-2}
 \end{align}
 $$

@@ -23,7 +23,7 @@ The general solution of the C.F. is called the **complementary solution (C.S.)**
     4) $\lambda e^{kx}$
     5) $\lambda \cos{kx} +\mu \sin{kx}$,
 
-    where $\lambda, \mu,$ and $\nu$ are the coefficients to be found by equating them to the corresponding coefficients of $f(x)$.
+    where $\lambda, \mu$ and $\nu$ are the coefficients to be found by equating them to the corresponding coefficients of $f(x)$.
 
 * **To find the general solution** of a linear non-homogenous SDE (1):
     1) Solve $a\frac{\mathrm{d}^{2}y}{\mathrm{d}x^{2}} + b\frac{\mathrm{d}y}{\mathrm{d}x} + cy=0$ to find the C.S.
@@ -40,7 +40,7 @@ $$
 \end{align}
 $$
 
-If general solution $= \text{C.S} + \text{P.I.}$, then by substituting $y = \hat y + \tilde y\,$ in (1) we get:
+If general solution $= \text{C.S.} + \text{P.I.}$, then by substituting $y = \hat y + \tilde y\,$ in (1) we get:
 
 $$
 \begin{align}
@@ -53,11 +53,11 @@ $$
 \end{align}
 $$
 
-* It is possible to **solve non-linear** non-homogenous SDEs by a **substitution**^[Which is always given in the A-Level course.] (see **Q2**). **_It is extremely important to properly use the [[Chain Rule|chain rule]] for this kind of substitution!_**
+* It is possible to **solve a non-linear** non-homogenous SDE **by substitution**^[Which is always given in the A-Level course.] (see **Q2**). **_It is extremely important to properly use the [[Chain Rule|chain rule]] for this kind of substitution!_**
 
 ---
 
-**Q1:** Find the general solution of $\frac{\mathrm{d}^{2}y}{\mathrm{d}x^{2}} - 8\frac{\mathrm{d}y}{\mathrm{d}x} + 12y= 36x$
+**Q1:** Find the general solution of $\frac{\mathrm{d}^{2}y}{\mathrm{d}x^{2}} - 8\frac{\mathrm{d}y}{\mathrm{d}x} + 12y= 36x$^[C2.161 Q1 b)]
 **A:** 
 1) Find the comlementary solution ([[./Homogenous SDEs.md#^solve-homogenous-sde|solving a homogenous SDE]]):
     $$ \frac{\mathrm{d}^{2}y}{\mathrm{d}x^{2}} - 8\frac{\mathrm{d}y}{\mathrm{d}x} + 12y = 0 $$ 
@@ -92,7 +92,61 @@ $$
 
 ---
 
-**Q2:** 
+**Q2:** Solve $\cos{x}\drv{d^{2}y}{dx^{2}} + \sin{x}\drv{dy}{dx} -2y \cos^3{x} = 2 \cos^5{x}$ by using the substitution $z = \sin{x}$^[FP1.185 Q4] 
 **A:** 
+1) Eliminate $x$ to get an expression in terms of $z, \drv{dy}{dz}$ and $\drv{d^{2}y}{dz^{2}}$:
+$$
+\begin{align}
+    \frac{\mathrm dz}{\mathrm dx} &= \cos{x} \tag{1} \\
+    \frac{\mathrm dy}{\mathrm dx} &= \frac{\mathrm dy}{\mathrm dz} \frac{\mathrm dz}{\mathrm dx}
+    = \frac{\mathrm dy}{\mathrm dz} \cos{x} 
+    = \frac{\mathrm dy}{\mathrm dz}\sqrt{1 - z^{2}} \tag{2} \\
+    \frac{\mathrm d^{2}y}{\mathrm dx^{2}} 
+    &= \frac{\mathrm d}{\mathrm dx} \(\frac{\mathrm dy}{\mathrm dz} \cos{x}\) \\
+    &= \frac{\mathrm dy}{\mathrm dz}(-\sin{x}) + (\cos{x})\frac{\mathrm d^{2}y}{\mathrm dz^{2}}\frac{\mathrm dz}{\mathrm dx} \tag*{The chain rule for $\drv{dy}{dz}$} \\
+    &= -\sin{x} \frac{\mathrm dy}{\mathrm dz} + \cos^{2}{x} \frac{\mathrm d^{2}y}{\mathrm dx^{2}} \\
+    &= -z\frac{\mathrm dy}{\mathrm dz} + \(1 - z^{2}\) \frac{\mathrm d^{2}y}{\mathrm dz^{2}} \tag{3} \\
+\end{align}
+$$
+After substituting (2) and (3) in the originial equation, and simplifying we get:
+$$ \drv{d^{2}y}{dz^{2}} - 2y = 2 - 2z^{2} \tag{4} $$ 
 
-*Answer:*
+2) Solve (4) in terms of $z$:
+    - Find C.S:
+    $$
+    \begin{align}
+        m^{2} - 2 = 0 \implies m = \pm \sqrt 2
+    \end{align}
+    $$
+    $y_c = Ae^{z\sqrt2} + Be^{-z\sqrt2}$
+
+    - Find P.I: 
+    Let $y = \lambda z^{2} + \mu z + \nu \implies y' = 2 \lambda z + \mu \implies y'' = 2 \lambda$
+    $$
+    \begin{align}
+        &2 \lambda - 2(\lambda z^{2} + \mu z + \nu) = 2 - 2z^{2} \\
+        &\lambda z^{2} + \mu z + (\nu - \lambda) = z^{2} + 0z - 1
+    \end{align}
+    $$
+    Equating the coefficients:
+    $$
+    \begin{cases}
+        \lambda = 1 \\
+        \mu = 0 \\
+        \mu - \lambda = -1
+    \end{cases}
+    \iff
+    \begin{cases}
+        \lambda = 1 \\
+        \mu = 0 \\
+        \nu = 0 
+    \end{cases}
+    $$
+    $y_p = z^{2}$
+
+    $y = Ae^{z\sqrt 2} + Be^{-z\sqrt2} + z^{2}$
+
+3) Reverse substitution:
+    $y = Ae^{\sin{x}\sqrt2} + Be^{-\sin{x}\sqrt2} + \sin^{2}{x}$
+
+*Answer:* $y = Ae^{\sin{x}\sqrt2} + Be^{-\sin{x}\sqrt2} + \sin^{2}{x}$

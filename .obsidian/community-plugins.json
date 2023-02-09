@@ -1,6 +1,6 @@
 [
-  "obsidian-tikzjax",
   "templater-obsidian",
   "obsidian-admonition",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-latex"
 ]

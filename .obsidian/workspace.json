@@ -8,34 +8,38 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ccc901719c8b07db",
+            "id": "30638b771e77e8ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Homogenous SDEs.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "357d4c20ef30aca6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Mathematics/Non-homogenous SDEs.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           },
           {
-            "id": "775def6565047948",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "2c5e74a7363ba939",
+            "id": "6e6aa206e5decc0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Fetch–Decode–Execute cycle.md",
+                "file": "Mathematics/L'Hopital's Rule.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           }
@@ -99,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Mathematics/Non-homogenous SDEs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,17 +133,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "775def6565047948",
+  "active": "357d4c20ef30aca6",
   "lastOpenFiles": [
+    "Mathematics/Homogenous SDEs.md",
+    "Mathematics/Non-homogenous SDEs.md",
+    "Mathematics/L'Hopital's Rule.md",
+    "Mathematics/Special Integrals.md",
+    "Untitled.md",
+    "Mathematics/First-order Differential Equations (FDEs).md",
+    "Mathematics/Differential Equations.md",
+    "Mathematics/Chain Rule.md",
     "Computer Science/System clock.md",
-    "Computer Science/TCP-IP protocol stack.md",
-    "Computer Science/Transport layer.md",
-    "Computer Science/URL.md",
-    "Computer Science/WAN.md",
-    "Computer Science/Wi-Fi.md",
-    "Computer Science/Pipelining.md",
-    "Computer Science/PC.md",
-    "Computer Science/Packet trailer.md",
-    "Computer Science/Packet switching.md"
+    "Computer Science/TCP-IP protocol stack.md"
   ]
 }
