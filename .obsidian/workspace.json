@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "30638b771e77e8ff",
+            "id": "819496af89b59a26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Homogenous SDEs.md",
+                "file": "Mathematics/Solving Inequalities.md",
                 "mode": "preview",
                 "source": true
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.50260543823242,
+    "width": 256.50390243530273,
     "collapsed": true
   },
   "right": {
@@ -103,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Non-homogenous SDEs.md",
+                "file": "Mathematics/Solving Inequalities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,17 +132,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "357d4c20ef30aca6",
+  "active": "819496af89b59a26",
   "lastOpenFiles": [
-    "Mathematics/Homogenous SDEs.md",
-    "Mathematics/Non-homogenous SDEs.md",
-    "Mathematics/L'Hopital's Rule.md",
+    "Attachments/Solving Inequalities 2023-02-10_18.32.58.md",
+    "Mathematics/Solving Inequalities.md",
     "Mathematics/Special Integrals.md",
-    "Untitled.md",
-    "Mathematics/First-order Differential Equations (FDEs).md",
-    "Mathematics/Differential Equations.md",
-    "Mathematics/Chain Rule.md",
-    "Computer Science/System clock.md",
-    "Computer Science/TCP-IP protocol stack.md"
+    "Excalidraw/Sketch_2023-02-10_17.47.14.md",
+    "Attachments/Homogenous SDEs 2023-02-10_17.33.28.md",
+    "Attachments/Homogenous SDEs 2023-02-10_17.28.41.md",
+    "Attachments/Homogenous SDEs 2023-02-10_17.29.44.md",
+    "Excalidraw/Drawing 2023-02-07 10.35.44.excalidraw.md",
+    "Mathematics/Homogenous SDEs.md",
+    "Mathematics/Non-homogenous SDEs.md"
   ]
 }
